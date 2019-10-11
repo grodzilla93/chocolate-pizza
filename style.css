@@ -1,0 +1,16 @@
+/* code foud on https://stackoverflow.com/questions/35610251/style-hr-with-image for hr styling */
+
+#hrFooter { 
+    background: url('img/small-logo.png') no-repeat top center;
+    content: "";
+    display: block;
+    height: 18px; /* height of the ornament */
+    position: relative;
+    top: -9px; /* half the height of the ornament */
+    border: 0;
+    color: grey;
+}
+
+img#pizza {
+    width: 480px;
+}
