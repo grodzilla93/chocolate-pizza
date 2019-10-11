@@ -10,7 +10,23 @@
     border: 0;
     color: grey;
 }
-
-img#pizza {
-    width: 480px;
+#eyeCatcher {
+    width: 960px;
+}
+#pizza {
+    width: 960px;
+}
+#recipe {
+    background-image: url('img/list-bg.png');
+    width: 960px;
+    height: 305px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#checkLeft {
+    float: left;
+}
+#checkRight {
+    float: right;
 }
