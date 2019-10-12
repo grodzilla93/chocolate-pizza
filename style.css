@@ -1,5 +1,7 @@
+#blogTitle {
+    float: left;
+}
 /* code foud on https://stackoverflow.com/questions/35610251/style-hr-with-image for hr styling */
-
 #hrFooter { 
     background: url('img/small-logo.png') no-repeat top center;
     content: "";
@@ -10,7 +12,23 @@
     border: 0;
     color: grey;
 }
-
-img#pizza {
-    width: 480px;
+#eyeCatcher {
+    width: 960px;
+}
+#pizza {
+    width: 960px;
+}
+#recipe {
+    background-image: url('img/list-bg.png');
+    width: 960px;
+    height: 305px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#checkLeft {
+    float: left;
+}
+#checkRight {
+    float: right;
 }
